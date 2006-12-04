@@ -1,4 +1,3 @@
 category: X11
-requires: cygwin libX11 renderproto xproto
-sdesc: "Xorg Xrender library (development)"
+sdesc: "Xorg Xrender library (documentation)"
 ldesc: "Xorg Xrender library"
