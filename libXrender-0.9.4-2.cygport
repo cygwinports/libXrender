@@ -1,0 +1,7 @@
+inherit xorg
+
+PKG_NAMES="${PN} ${PN}1 ${PN}-devel"
+PKG_HINTS="setup runtime devel"
+libXrender_CONTENTS=	# empty
+libXrender1_CONTENTS="usr/bin/cygXrender-1.dll usr/share/doc/"
+libXrender_devel_CONTENTS='usr/include/ usr/lib/'
