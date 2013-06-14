@@ -1,12 +1,12 @@
 inherit xorg
 
 NAME="libXrender"
-VERSION=0.9.7
+VERSION=0.9.8
 RELEASE=1
 CATEGORY="X11"
 SUMMARY="X.Org Xrender library"
 DESCRIPTION="X.Org Xrender library"
 
-PKG_NAMES="${PN}1 ${PN}-devel"
+PKG_NAMES="${NAME}1 ${NAME}-devel"
 libXrender1_CONTENTS="usr/bin/cygXrender-1.dll usr/share/doc/"
 libXrender_devel_CONTENTS='usr/include/ usr/lib/'
