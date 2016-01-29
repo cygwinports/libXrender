@@ -1,9 +1,9 @@
 inherit xorg
 
 NAME="libXrender"
-VERSION=0.9.8
+VERSION=0.9.9
 RELEASE=1
-CATEGORY="X11"
+CATEGORY="Libs"
 SUMMARY="X.Org Xrender library"
 DESCRIPTION="X.Org Xrender library"
 
